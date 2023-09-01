@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Appointment</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+    <h1>Edit Appointment</h1>
+    
+    <form id="editForm" action="/edit/<%= appointment.id %>" method="post">
+        <!-- Form fields for editing the appointment (e.g., name, date, time) -->
+        <button type="submit">Save Changes</button>
+    </form>
+
+    <script src="/client.js"></script>
+</body>
+</html>

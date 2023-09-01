@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(74, 137, 173);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: 20px;
+}
+body input{
+    margin: 3px;
+    font-size: 18px;
+}
+
+form button{
+    font-size: 16px;
+    padding: 8px 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.display{
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+.display span{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
