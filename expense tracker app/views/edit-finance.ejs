@@ -1,0 +1,9 @@
+<h1><%= pageTitle %></h1>
+
+<!-- Form for editing a finance entry -->
+<form action="/finances/edit" method="POST">
+  <input type="hidden" name="financeId" value="<%= finance.id %>">
+  <input type="text" name="description" value="<%= finance.description %>" required>
+  <input type="number" name="amount" value="<%= finance.amount %>" step="0.01" required>
+  <button type="submit">Save</button>
+</form>
